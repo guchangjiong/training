@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    div {
+      background-color: black;
+      color: white;
+      width: 100px;
+      height: 20px;
+      text-align: center;
+    }
+  </style>
+  <script type="text/javascript">
+    let a = 0;
+    function count_click(){
+      a = a + 1;
+      document.getElementById("count").innerHTML = a;
+    }
+  </script>
+</head>
+<body>
+  <div id="count" onclick="count_click()">
+    0
+  </div>
+</body>
+</html>
